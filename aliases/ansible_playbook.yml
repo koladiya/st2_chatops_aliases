@@ -7,7 +7,7 @@ description: "Run Ansible playbook on hosts"
 formats:
   - display: "ansible_playbook <command>"
     representation:
-      - "ansible-playbook {{ playbook }}"
+      - "ansible_playbook {{ playbook }}"
 result:
   format: |
     Ansible command `{{ execution.parameters.playbook }}` result: {~}
