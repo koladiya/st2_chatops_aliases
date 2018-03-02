@@ -2,7 +2,6 @@
 # https://github.com/StackStorm/st2contrib/tree/master/packs/ansible
 ---
 name: "chatops.ansible_local"
-pack: "ansible"
 action_ref: "ansible.command_local"
 description: "Run Ansible command on local machine"
 formats:
