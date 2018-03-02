@@ -2,6 +2,7 @@
 # https://github.com/StackStorm/st2contrib/tree/master/packs/ansible
 ---
 name: "chatops.ansible_playbook"
+pack: "ansible"
 action_ref: "ansible.playbook"
 description: "Run Ansible playbook on hosts"
 formats:
