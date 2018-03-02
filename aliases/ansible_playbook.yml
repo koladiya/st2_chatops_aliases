@@ -10,7 +10,7 @@ formats:
       - "ansible-playbook {{ playbook }}"
 result:
   format: |
-    Ansible command `{{ execution.parameters.args }}` result: {~}
+    Ansible command `{{ execution.parameters.playbook }}` result: {~}
     {% if execution.result.stderr %}*Stdout:* {% endif %}
     ```{{ execution.result.stdout }}```
     {% if execution.result.stderr %}*Stderr:* ```{{ execution.result.stderr }}```{% endif %}
