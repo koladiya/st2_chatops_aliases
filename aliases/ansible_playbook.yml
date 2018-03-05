@@ -5,7 +5,7 @@ name: "chatops.ansible_playbook"
 action_ref: "ansible.playbook"
 description: "Run Ansible playbook on hosts"
 formats:
-  - display: "ansible_playbook < command >"
+  - display: "ansible_playbook"
     representation:
       - "ansible_playbook playbook=/etc/ansible/playbook/ios_show_banner.yml"
 
