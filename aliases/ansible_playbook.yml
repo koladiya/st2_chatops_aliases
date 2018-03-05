@@ -9,7 +9,8 @@ parameters:
 formats:
   - display: "ansible_playbook <command>"
     representation:
-      - "ansible_playbook #{{ playbook }}"
+      - "ansible_playbook 
+      #{{ playbook }}"
 result:
   format: |
     Ansible-playbook command `{{ execution.parameters.playbook }}` result: {~}
