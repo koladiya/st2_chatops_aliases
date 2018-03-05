@@ -4,12 +4,10 @@
 name: "chatops.ansible_playbook"
 action_ref: "ansible.playbook"
 description: "Run Ansible playbook on hosts"
-parameters: 
-  playbook: "/etc/ansible/playbook/ios_show_banner.yml"
 formats:
   - display: "ansible_playbook <command>"
     representation:
-      - "ansible_playbook 
+      - "ansible_playbook ('{{ playbook: "/etc/ansible/playbook/ios_show_banner.yml" }}')
       #{{ playbook }}"
 result:
   format: |
