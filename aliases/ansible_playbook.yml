@@ -8,9 +8,8 @@ formats:
   - display: "ansible_playbook1"
     representation:
       - "ansible_playbook {{ playbook=/etc/ansible/playbook/ios_show_banner.yml }}"
-   - display: "ansible_playbook2"
-    representation:
-      - "ansible_playbook {{ playbook=/etc/ansible/playbook/check_version.yml }}"
+
+  - "ansible_playbook2 {{ playbook=/etc/ansible/playbook/check_version.yml }}"
 
 result:
   format: |
