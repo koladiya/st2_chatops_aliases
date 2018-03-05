@@ -5,10 +5,10 @@ name: "chatops.ansible_playbook"
 action_ref: "ansible.playbook"
 description: "Run Ansible playbook on hosts"
 formats:
-  - display: "ansible_playbook1"
+  - display: "ansible_playbook1 for show ios banner"
     representation:
-      - "ansible_playbook {{ playbook=/etc/ansible/playbook/ios_show_banner.yml }}"
-
+      - "ansible_playbook1 {{ playbook=/etc/ansible/playbook/ios_show_banner.yml }}"
+# OR you can write this simple 
   - "ansible_playbook2 {{ playbook=/etc/ansible/playbook/check_version.yml }}"
 
 result:
