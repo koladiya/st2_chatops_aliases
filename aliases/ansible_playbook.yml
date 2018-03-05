@@ -8,7 +8,7 @@ formats:
   - display: "ansible_playbook"
     representation:
       - "ansible_playbook /etc/ansible/playbook/ios_show_banner.yml
-      #{{ playbook }}"
+      # {{ playbook }}"
 result:
   format: |
     Ansible-playbook command `{{ execution.parameters.playbook }}` result: {~}
