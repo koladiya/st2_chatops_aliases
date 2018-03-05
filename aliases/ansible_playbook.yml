@@ -10,6 +10,7 @@ formats:
       - "ansible_playbook1 {{ playbook=/etc/ansible/playbook/ios_show_banner.yml }}"
 # OR you can write this simple 
   - "ansible_playbook2 {{ playbook=/etc/ansible/playbook/check_version.yml }}"
+  - "ansible_playbook2 {{ playbook=/etc/ansible/playbook/sh_ip_int_br.yml }}"
 
 result:
   format: |
