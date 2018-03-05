@@ -7,7 +7,7 @@ description: "Run Ansible playbook on hosts"
 formats:
   - display: "ansible_playbook"
     representation:
-      - "ansible_playbook /etc/ansible/playbook/ios_show_banner.yml"
+      - "ansible_playbook ( '{{ playbook=/etc/ansible/playbook/ios_show_banner.yml }}') "
 
 result:
   format: |
